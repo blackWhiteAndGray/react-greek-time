@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import ChatApp from "./c01/ChatApp";
 // import CommentBox from "./c02/CommentBox";
-// import { TabSelectorSample } from "./c02/TabSelector";
+import { TabSelectorSample } from "./c02/TabSelector";
 // import { StatefulTabSelectSample } from "./c02/StatefulTabSelector";
 // import Clock from "./c03/Clock";
 // import SnapshotSample from "./c04/SnapshotSample";
@@ -44,7 +44,7 @@ const styles = {
 const routeMap = {
   chat: ChatApp,
 //   "comment-box": CommentBox,
-//   "tab-selector": TabSelectorSample,
+  "tab-selector": TabSelectorSample,
 //   "stateful-tab-selector": StatefulTabSelectSample,
 //   "snapshot-sample": SnapshotSample,
 //   "dom-diff": DomDiff,
