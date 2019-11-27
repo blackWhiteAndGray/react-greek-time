@@ -2,11 +2,11 @@ import React from "react";
 import { render } from "react-dom";
 import Hello from "./Hello";
 import ChatApp from "./c01/ChatApp";
-// import CommentBox from "./c02/CommentBox";
+import CommentBox from "./c02/CommentBox";
 import { TabSelectorSample } from "./c02/TabSelector";
-// import { StatefulTabSelectSample } from "./c02/StatefulTabSelector";
-// import Clock from "./c03/Clock";
-// import SnapshotSample from "./c04/SnapshotSample";
+import { StatefulTabSelectSample } from "./c02/StatefulTabSelector";
+import Clock from "./c03/Clock";
+import SnapshotSample from "./c04/SnapshotSample";
 // import DomDiff from "./c05/DomDiff";
 // import { AdvancedTabSelectorSample } from "./c06/AdvancedTabSelector";
 // import LocaleSample from "./c07/LocaleSample";
@@ -43,14 +43,14 @@ const styles = {
 
 const routeMap = {
   chat: ChatApp,
-//   "comment-box": CommentBox,
+  "comment-box": CommentBox,
   "tab-selector": TabSelectorSample,
-//   "stateful-tab-selector": StatefulTabSelectSample,
-//   "snapshot-sample": SnapshotSample,
+  "stateful-tab-selector": StatefulTabSelectSample,
+  "snapshot-sample": SnapshotSample,
 //   "dom-diff": DomDiff,
 //   "adv-tab-selector": AdvancedTabSelectorSample,
 //   "locale-sample": LocaleSample,
-//   clock: Clock,
+  clock: Clock,
 //   "pure-redux": PureRedux,
 //   counter: Counter,
 //   "async-action": AsyncAction,
