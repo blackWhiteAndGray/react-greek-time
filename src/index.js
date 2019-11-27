@@ -8,7 +8,7 @@ import { StatefulTabSelectSample } from "./c02/StatefulTabSelector";
 import Clock from "./c03/Clock";
 import SnapshotSample from "./c04/SnapshotSample";
 // import DomDiff from "./c05/DomDiff";
-// import { AdvancedTabSelectorSample } from "./c06/AdvancedTabSelector";
+import { AdvancedTabSelectorSample } from "./c06/AdvancedTabSelector";
 // import LocaleSample from "./c07/LocaleSample";
 // import PureRedux from "./c11/PureRedux";
 // import Counter from "./c12/Counter";
@@ -48,7 +48,7 @@ const routeMap = {
   "stateful-tab-selector": StatefulTabSelectSample,
   "snapshot-sample": SnapshotSample,
 //   "dom-diff": DomDiff,
-//   "adv-tab-selector": AdvancedTabSelectorSample,
+  "adv-tab-selector": AdvancedTabSelectorSample,
 //   "locale-sample": LocaleSample,
   clock: Clock,
 //   "pure-redux": PureRedux,
