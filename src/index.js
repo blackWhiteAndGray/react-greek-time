@@ -16,8 +16,8 @@ import Counter from "./c12/Counter";
 // import ReduxMiddleware from "./c13/ReduxMiddleware";
 // import OrgActions from "./c14/OrgActions";
 import RouterSample from "./c16/RouterSample";
-// import RouterParams from "./c17/RouterParams";
-// import NestedRoute from "./c17/NestedRoute";
+import RouterParams from "./c17/RouterParams";
+import NestedRoute from "./c17/NestedRoute";
 // import FormSubmit from "./c29/FormSubmit";
 // import FormSubmitAntd from "./c29/FormSubmitAntd";
 // import DynamicForm from "./c30/DynamicForm";
@@ -57,8 +57,8 @@ const routeMap = {
 //   "redux-middleware": ReduxMiddleware,
 //   "org-actions": OrgActions,
   "router-sample": RouterSample,
-//   "router-params": RouterParams,
-//   "nested-route": NestedRoute,
+  "router-params": RouterParams,
+  "nested-route": NestedRoute,
 //   "form-submit": FormSubmit,
 //   "form-submit-antd": FormSubmitAntd,
 //   "dynamic-form": DynamicForm,
