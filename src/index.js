@@ -11,7 +11,7 @@ import SnapshotSample from "./c04/SnapshotSample";
 import { AdvancedTabSelectorSample } from "./c06/AdvancedTabSelector";
 import LocaleSample from "./c07/LocaleSample";
 import PureRedux from "./c11/PureRedux";
-// import Counter from "./c12/Counter";
+import Counter from "./c12/Counter";
 // import AsyncAction from "./c13/AsyncAction";
 // import ReduxMiddleware from "./c13/ReduxMiddleware";
 // import OrgActions from "./c14/OrgActions";
@@ -52,7 +52,7 @@ const routeMap = {
   "locale-sample": LocaleSample,
   clock: Clock,
   "pure-redux": PureRedux,
-//   counter: Counter,
+  counter: Counter,
 //   "async-action": AsyncAction,
 //   "redux-middleware": ReduxMiddleware,
 //   "org-actions": OrgActions,
