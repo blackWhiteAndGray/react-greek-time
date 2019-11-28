@@ -20,7 +20,7 @@ import RouterParams from "./c17/RouterParams";
 import NestedRoute from "./c17/NestedRoute";
 import FormSubmit from "./c29/FormSubmit";
 import FormSubmitAntd from "./c29/FormSubmitAntd";
-// import DynamicForm from "./c30/DynamicForm";
+import DynamicForm from "./c30/DynamicForm";
 // import ListSample from "./c31/App";
 // import WizardSample from "./c35/App";
 // import Layout1 from "./c36/Layout1";
@@ -61,7 +61,7 @@ const routeMap = {
   "nested-route": NestedRoute,
   "form-submit": FormSubmit,
   "form-submit-antd": FormSubmitAntd,
-//   "dynamic-form": DynamicForm,
+  "dynamic-form": DynamicForm,
 //   "list-page": ListSample,
 //   "wizard-sample": WizardSample,
 //   layout1: Layout1,
