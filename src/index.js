@@ -21,7 +21,7 @@ import NestedRoute from "./c17/NestedRoute";
 import FormSubmit from "./c29/FormSubmit";
 import FormSubmitAntd from "./c29/FormSubmitAntd";
 import DynamicForm from "./c30/DynamicForm";
-// import ListSample from "./c31/App";
+import ListSample from "./c31/App";
 // import WizardSample from "./c35/App";
 // import Layout1 from "./c36/Layout1";
 // import Layout2 from "./c36/Layout2";
@@ -62,7 +62,7 @@ const routeMap = {
   "form-submit": FormSubmit,
   "form-submit-antd": FormSubmitAntd,
   "dynamic-form": DynamicForm,
-//   "list-page": ListSample,
+  "list-page": ListSample,
 //   "wizard-sample": WizardSample,
 //   layout1: Layout1,
 //   layout2: Layout2,
@@ -85,9 +85,9 @@ class App extends React.PureComponent {
     const currentPage = document.location.hash.replace(/#\/?/, "");
 
     let CurrentPage = routeMap[currentPage] || Hello;
-    // if (currentPage.match(/\/user\/\w+|\/list-page/)) {
-    //   CurrentPage = ListSample;
-    // }
+    if (currentPage.match(/\/user\/\w+|\/list-page/)) {
+      CurrentPage = ListSample;
+    }
     // if (currentPage.match(/\/wizard\/step\/\w+/)) {
     //   CurrentPage = WizardSample;
     // }
