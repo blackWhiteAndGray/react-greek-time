@@ -29,7 +29,7 @@ import Layout2 from "./c36/Layout2";
 import LayoutResize from "./c36/LayoutResize";
 import PortalSample from "./c37/PortalSample";
 import AntdDialog from "./c37/AntdDialog";
-// import D3Sample from "./c38/D3Sample";
+import D3Sample from "./c38/D3Sample";
 // import DndSample from "./c40/DndSample";
 // import ReselectSample from "./c43/ReselectSample";
 // import Suspense from "./c44/Suspense";
@@ -71,7 +71,7 @@ const routeMap = {
   "layout-resize": LayoutResize,
   "portal-sample": PortalSample,
   "antd-dialog": AntdDialog,
-//   "d3-sample": D3Sample,
+  "d3-sample": D3Sample,
 //   "dnd-sample": DndSample,
 //   "reselect-sample": ReselectSample,
 //   suspense: Suspense,
