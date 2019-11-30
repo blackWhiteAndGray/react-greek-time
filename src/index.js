@@ -24,9 +24,9 @@ import DynamicForm from "./c30/DynamicForm";
 import ListSample from "./c31/App";
 import MultipleRequest from "./c33/MultipleRequest";
 import WizardSample from "./c35/App";
-// import Layout1 from "./c36/Layout1";
-// import Layout2 from "./c36/Layout2";
-// import LayoutResize from "./c36/LayoutResize";
+import Layout1 from "./c36/Layout1";
+import Layout2 from "./c36/Layout2";
+import LayoutResize from "./c36/LayoutResize";
 // import PortalSample from "./c37/PortalSample";
 // import AntdDialog from "./c37/AntdDialog";
 // import D3Sample from "./c38/D3Sample";
@@ -66,9 +66,9 @@ const routeMap = {
   "list-page": ListSample,
   "multiple-request": MultipleRequest,
   "wizard-sample": WizardSample,
-//   layout1: Layout1,
-//   layout2: Layout2,
-//   "layout-resize": LayoutResize,
+  layout1: Layout1,
+  layout2: Layout2,
+  "layout-resize": LayoutResize,
 //   "portal-sample": PortalSample,
 //   "antd-dialog": AntdDialog,
 //   "d3-sample": D3Sample,
