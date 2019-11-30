@@ -10,7 +10,9 @@ class ListPage extends React.Component {
   state = { search: "" };
   componentDidMount() {
     const page = this.props.match.params.page || 1;
-    this.fetchData(page);
+    if (page !== this.props.list.page || !this.getDataSource().length || this.props.list.listNeedReload) {
+        this.fetchData(page);
+    }
   }
 
   componentDidUpdate(prevProps) {

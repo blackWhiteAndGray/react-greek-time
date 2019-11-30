@@ -22,7 +22,8 @@ import FormSubmit from "./c29/FormSubmit";
 import FormSubmitAntd from "./c29/FormSubmitAntd";
 import DynamicForm from "./c30/DynamicForm";
 import ListSample from "./c31/App";
-// import WizardSample from "./c35/App";
+import MultipleRequest from "./c33/MultipleRequest";
+import WizardSample from "./c35/App";
 // import Layout1 from "./c36/Layout1";
 // import Layout2 from "./c36/Layout2";
 // import LayoutResize from "./c36/LayoutResize";
@@ -63,7 +64,8 @@ const routeMap = {
   "form-submit-antd": FormSubmitAntd,
   "dynamic-form": DynamicForm,
   "list-page": ListSample,
-//   "wizard-sample": WizardSample,
+  "multiple-request": MultipleRequest,
+  "wizard-sample": WizardSample,
 //   layout1: Layout1,
 //   layout2: Layout2,
 //   "layout-resize": LayoutResize,
