@@ -31,7 +31,7 @@ import PortalSample from "./c37/PortalSample";
 import AntdDialog from "./c37/AntdDialog";
 import D3Sample from "./c38/D3Sample";
 // import DndSample from "./c40/DndSample";
-// import ReselectSample from "./c43/ReselectSample";
+import ReselectSample from "./c43/ReselectSample";
 // import Suspense from "./c44/Suspense";
 import "antd/dist/antd.css";
 
@@ -73,7 +73,7 @@ const routeMap = {
   "antd-dialog": AntdDialog,
   "d3-sample": D3Sample,
 //   "dnd-sample": DndSample,
-//   "reselect-sample": ReselectSample,
+  "reselect-sample": ReselectSample,
 //   suspense: Suspense,
 };
 
