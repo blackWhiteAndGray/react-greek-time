@@ -27,8 +27,8 @@ import WizardSample from "./c35/App";
 import Layout1 from "./c36/Layout1";
 import Layout2 from "./c36/Layout2";
 import LayoutResize from "./c36/LayoutResize";
-// import PortalSample from "./c37/PortalSample";
-// import AntdDialog from "./c37/AntdDialog";
+import PortalSample from "./c37/PortalSample";
+import AntdDialog from "./c37/AntdDialog";
 // import D3Sample from "./c38/D3Sample";
 // import DndSample from "./c40/DndSample";
 // import ReselectSample from "./c43/ReselectSample";
@@ -69,8 +69,8 @@ const routeMap = {
   layout1: Layout1,
   layout2: Layout2,
   "layout-resize": LayoutResize,
-//   "portal-sample": PortalSample,
-//   "antd-dialog": AntdDialog,
+  "portal-sample": PortalSample,
+  "antd-dialog": AntdDialog,
 //   "d3-sample": D3Sample,
 //   "dnd-sample": DndSample,
 //   "reselect-sample": ReselectSample,
@@ -90,9 +90,9 @@ class App extends React.PureComponent {
     if (currentPage.match(/\/user\/\w+|\/list-page/)) {
       CurrentPage = ListSample;
     }
-    // if (currentPage.match(/\/wizard\/step\/\w+/)) {
-    //   CurrentPage = WizardSample;
-    // }
+    if (currentPage.match(/\/wizard\/step\/\w+/)) {
+      CurrentPage = WizardSample;
+    }
     return (
       <div style={styles}>
         <ul className="menu-list">
