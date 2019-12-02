@@ -1,8 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Learn some small examples of react.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+When you clone this project, then you should npm install firstly.
 
 ### `npm start`
 
